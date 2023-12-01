@@ -19,10 +19,18 @@ To filter inappropriate content, run [`discord_safety_checker.ipynb`][colab-note
 
 ## References
 
-Examples of automatic tools to identify inappropriate content:
+Here are examples of automatic tools to identify inappropriate content.
+
+Image classification:
 - [`CompVis/stable-diffusion-safety-checker`][CompVis-space]
 - [`Falconsai/nsfw_image_detection`][Falconsai-space]
 - [`sanali209/nsfwfilter`][sanali209-space]
+
+Text classification:
+- [`unitaryai/detoxify`][detoxify-github]
+  - [`original`][detoxify-original-space]
+  - [`unbiased`][detoxify-unbiased-space]
+  - [`multilingual`][detoxify-multilingual-space]
 
 <!-- Definitions -->
 
@@ -35,3 +43,8 @@ Examples of automatic tools to identify inappropriate content:
 [CompVis-space]: <https://huggingface.co/CompVis/stable-diffusion-safety-checker>
 [Falconsai-space]: <https://huggingface.co/Falconsai/nsfw_image_detection>
 [sanali209-space]: <https://huggingface.co/sanali209/nsfwfilter>
+
+[detoxify-github]: <https://github.com/unitaryai/detoxify>
+[detoxify-original-space]: <https://huggingface.co/unitary/toxic-bert>
+[detoxify-unbiased-space]: <https://huggingface.co/unitary/unbiased-toxic-roberta>
+[detoxify-multilingual-space]: <https://huggingface.co/unitary/multilingual-toxic-xlm-roberta>
