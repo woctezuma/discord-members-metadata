@@ -23,6 +23,9 @@ To find issues in the image dataset, as with [`steam-DINOv2`][steam-DINOv2], run
 To filter inappropriate content, run [`discord_safety_checker.ipynb`][colab-notebook].
 [![Open In Colab][colab-badge]][colab-notebook]
 
+To download avatars and apply CLIP for image retrieval based on a text or image query, run [`download_discord_avatars.ipynb`][colab-notebook-clip].
+[![Open In Colab][colab-badge]][colab-notebook-clip]
+
 ## References
 
 - [`stable-diffusion-safety-checker`][stable-diffusion-safety-checker]: a Python package to apply the Safety Checker from Stable Diffusion. 
@@ -49,6 +52,7 @@ Text classification:
 [colab-notebook-scraper]: <https://colab.research.google.com/github/woctezuma/discord-members-metadata/blob/main/scrape_discord.ipynb>
 [colab-notebook-cleanvision]: <https://colab.research.google.com/github/woctezuma/discord-members-metadata/blob/main/find_dataset_issues.ipynb>
 [colab-notebook]: <https://colab.research.google.com/github/woctezuma/discord-members-metadata/blob/main/discord_safety_checker.ipynb>
+[colab-notebook-clip]: <https://colab.research.google.com/github/woctezuma/discord-members-metadata/blob/main/download_discord_avatars.ipynb>
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
 
 [stable-diffusion-safety-checker]: <https://github.com/woctezuma/stable-diffusion-safety-checker>
